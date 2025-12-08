@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Hava Durumu</title>
+<link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+
+<div class="weather-card">
+
+    <div class="header">
+        <div class="location-info">
+            <div class="location">New York</div>
+            <div class="date">Pazartesi — 08 Aralık 2025</div>
+        </div>
+        <div class="time">18:00</div>
+    </div>
+
+    <div class="main-weather">
+        <img src="./assets/icons/clear-day.svg" alt="Hafif Yağmur" class="weather-icon">
+        <div class="temp-info">
+            <div class="degree">17°<span class="unit">C</span></div>
+            <div class="desc">Hafif Yağmur</div>
+        </div>
+    </div>
+
+    <div class="details-grid">
+        <div class="detail-item">
+            <span class="detail-label">Hissedilen</span>
+            <span class="detail-value">17°C</span>
+        </div>
+        <div class="detail-item">
+            <span class="detail-label">Nem</span>
+            <span class="detail-value">%67</span>
+        </div>
+        <div class="detail-item">
+            <span class="detail-label">Rüzgar</span>
+            <span class="detail-value">2.7 m/s</span>
+        </div>
+        <div class="detail-item">
+            <span class="detail-label">Bulut</span>
+            <span class="detail-value">%99</span>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-item">
+            <span class="footer-label">Görüş Mesafesi</span>
+            <span class="footer-value">10 km</span>
+        </div>
+        <div class="footer-item">
+            <span class="footer-label">Yağış Olasılığı</span>
+            <span class="footer-value">%82</span>
+        </div>
+        <div class="footer-item">
+            <span class="footer-label">Yağış Miktarı</span>
+            <span class="footer-value">0.48 mm</span>
+        </div>
+        <div class="footer-item">
+            <span class="footer-label">Basınç</span>
+            <span class="footer-value">1012 hPa</span>
+        </div>
+    </div>
+
+</div>
+
+<script type="module" src="./scripts/app.js"></script>
+</body>
+</html>
