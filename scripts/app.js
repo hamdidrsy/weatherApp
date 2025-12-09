@@ -1,3 +1,3 @@
-import {WeatherServicesAPIKey} from "./api/weatherService.js"
+import { runEvents } from "./ui/domHandler.js";
 
-
+runEvents();
